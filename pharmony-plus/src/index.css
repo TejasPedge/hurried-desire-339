@@ -11,11 +11,46 @@ body {
 
 .MuiSvgIcon-root:hover {
 
-  color: rgb(14, 180, 180);
+  cursor: pointer;
+
 }
+.searchicon{
+
+  border: 2px solid green;
+}
+
 
 
 .hs {
 
   color: rgb(0, 255, 187);
 }
+
+.hs {
+
+  color: rgb(35, 184, 144);
+}
+
+
+/* -------------Slider---------- */
+
+.swiper-button-prev {
+
+  display: none;
+
+  border: 2px solid red;
+
+  visibility: hidden;
+}
+
+
+.swiper-button-next {
+
+  display: none;
+
+  border: 2px solid red;
+
+  visibility: hidden;
+}
+
+

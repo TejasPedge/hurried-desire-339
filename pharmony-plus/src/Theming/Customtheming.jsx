@@ -8,10 +8,16 @@ const colorThemes = () => {
 
                   brand : {
 
-                    primary : "green",
+                    primary : "blue.400",
 
-                    secondary : "rgb(0, 255, 187)"
+                    secondary : "rgb(0, 255, 187)",
 
+                    Dark_bg : '#001E3C',
+
+                    Light_bg : 'gray.100',
+
+                    Dark_bg2 : '#0A1929',
+                    
                   }
 
                }

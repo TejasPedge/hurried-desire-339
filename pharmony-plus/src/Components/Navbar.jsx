@@ -76,10 +76,10 @@ export default function Nav() {
     variant='outline'
     size={'md'}
     display={{ "1349px": 'none' }}
-  />
+ />
 
 
-<MenuList display={{ "1349px": 'none' }} border={colorMode =="dark" ? "1px solid aqua" : "1px solid gray"} bg={useColorModeValue("gray.300","blue.700")} boxShadow = {useColorModeValue("5px 5px 10px gray")}>
+<MenuList bg={'none'} backdropFilter={'blur(12px)'} display={{ "1349px": 'none' }} border={colorMode =="dark" ? "1px solid aqua" : "1px solid gray"} boxShadow = {useColorModeValue("5px 5px 10px gray")}>
 
 <Box p="10"  pb={4} display={{ "1349px": 'none' }}>
             <Stack as={'nav'} spacing={4}>
@@ -97,7 +97,7 @@ export default function Nav() {
 
             <Text _hover={colorMode == "dark" ? {color : "aqua",cursor : "pointer"} : {color: "#3f50b5",cursor : "pointer"}} key = "rrt"> Offers </Text>
 
-            <AddShoppingCartRoundedIcon color = "green"/> 
+            <AddShoppingCartRoundedIcon /> 
 
             <Text _hover={colorMode == "dark" ? {color : "aqua",cursor : "pointer"} : {color: "#3f50b5",cursor : "pointer"}} key = "lvm"> Need Help ? </Text>
 
