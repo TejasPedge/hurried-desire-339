@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+} 
+
+
+.MuiSvgIcon-root:hover {
+
+  cursor: pointer;
+
+}
+.searchicon{
+
+  border: 2px solid green;
+}
+
+.hs {
+
+  color: rgb(0, 255, 187);
+}
+
+.hs {
+
+  color: rgb(35, 184, 144);
+}
+
+
+/* -------------Slider---------- */
+
+
+.swiper-button-prev{
+
+   /* border: 2px solid red; */
+
+   width: 20px;
+
+}
+
+
+
+
+.swiper-button-prev::after{
+
+ color: rgb(76, 82, 243);
+
+
+}
+
+
+.swiper-button-next::after{
+
+  color: rgb(76, 82, 243);
+ 
+ 
+ }
+ 

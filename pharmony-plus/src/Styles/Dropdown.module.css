@@ -1,0 +1,233 @@
+.Dropdown {
+
+    z-index: 1;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    width: 0px;
+
+    position: absolute;
+
+    background-color: rgba(0, 157, 255, 0.119);
+
+    backdrop-filter: blur(20px);
+
+    display: flex;
+
+    flex-direction: column;
+
+    left: 0px;
+
+    height: 0px;
+
+    transition: 0.2s;
+
+}
+
+
+.parent {
+
+    position: relative;
+
+}
+
+
+.parent:hover .Dropdown{
+
+    padding: 20px;
+
+    height: 120px;
+
+    width: 400px;
+
+    left: 30px;
+
+}
+
+
+/* -----------------2----------------- */
+
+
+.Dropdown2 {
+
+    z-index: 1;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    width: 0px;
+
+    position: absolute;
+
+    background-color: rgba(0, 157, 255, 0.119);
+
+    backdrop-filter: blur(40px);
+
+    display: flex;
+
+    flex-direction: column;
+
+    left: 0px;
+
+    height: 0px;
+
+    overflow-x: hidden;
+
+    overflow-y: hidden;
+
+    transition: 0.3s;
+
+    justify-content: space-between;
+
+}
+
+.parent2{
+
+    position: relative;
+
+}
+
+.parent2:hover .Dropdown2{
+
+    padding: 20px;
+
+    height: 470px;
+
+    width: 640px;
+
+    left: 30px;
+
+}
+
+
+
+@media only screen and (max-width : 927px ) {
+    
+
+    .parent2:hover .Dropdown2{
+
+       
+        width: 500px;
+
+        overflow-x: scroll;
+    
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width : 836px ) {
+    
+
+    .parent2:hover .Dropdown2{
+
+       
+        width: 400px;
+
+        overflow-x: scroll;
+    
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width : 681px ) {
+    
+
+    .parent2:hover .Dropdown2{
+
+       
+        width: 220px;
+
+        overflow-x: scroll;
+    
+    
+    }
+
+
+}
+
+@media only screen and (max-width : 526px ) {
+    
+
+    .parent2:hover .Dropdown2{
+
+       
+        width: 220px;
+
+        overflow-x: scroll;
+    
+        left: 0px;
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width : 460px ) {
+    
+
+    .parent2:hover .Dropdown2{
+
+       
+        width: 220px;
+
+        overflow-x: scroll;
+    
+        left: -70px;
+    
+    }
+
+
+}
+
+@media only screen and (max-width : 300px ) {
+    
+
+    .parent2:hover .Dropdown2{
+
+       
+        width: 220px;
+
+        overflow-x: scroll;
+    
+        left: -100px;
+    
+    }
+
+
+}
+
+@media only screen and (max-width : 448px ) {
+    
+
+    .parent:hover .Dropdown{
+
+       
+        width: 300px;
+    
+    }
+
+}
+
+
+
+@media only screen and (max-width : 349px ) {
+    
+
+    .parent:hover .Dropdown{
+
+       
+        width: 275px;
+    
+    }
+
+}

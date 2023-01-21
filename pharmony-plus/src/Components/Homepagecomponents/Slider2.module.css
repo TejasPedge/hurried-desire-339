@@ -1,0 +1,30 @@
+
+
+
+.mySwiper2{
+
+    /* border: 2px solid rgb(232, 13, 13); */
+
+    width: 95%;
+
+    padding: 35px 30px 10px 20px;
+    /* height: 100px; */
+
+}
+
+.Swiperslider {
+
+
+    /* border: 2px solid red; */
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    
+
+}
+
+

@@ -1,0 +1,39 @@
+
+.mySwiper2 {
+
+
+    /* border: 2px solid red; */
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+    width: 97%;
+}
+
+
+.Swiperslider {
+
+ 
+/* 
+    padding: 13px; */
+
+    border-radius: 20px;
+
+    border: 1px solid gray;
+
+    /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.509); */
+
+    overflow: hidden;
+}
+
+
+/* .Safe {
+
+    position: absolute;
+
+    top: 7px;
+
+    right: 0px;
+
+} */
