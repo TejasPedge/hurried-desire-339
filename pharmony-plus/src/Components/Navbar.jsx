@@ -79,7 +79,7 @@ export default function Nav() {
  />
 
 
-<MenuList bg={'none'} backdropFilter={'blur(12px)'} display={{ "1349px": 'none' }} border={colorMode =="dark" ? "1px solid aqua" : "1px solid gray"} boxShadow = {useColorModeValue("5px 5px 10px gray")}>
+<MenuList bg={'none'} backdropFilter={useColorModeValue('blur(10px)','blur(30px)')} display={{ "1349px": 'none' }} border={colorMode =="dark" ? "1px solid aqua" : "1px solid gray"} boxShadow = {useColorModeValue("5px 5px 10px gray")}>
 
 <Box p="10"  pb={4} display={{ "1349px": 'none' }}>
             <Stack as={'nav'} spacing={4}>

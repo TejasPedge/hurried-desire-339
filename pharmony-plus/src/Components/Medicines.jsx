@@ -1,9 +1,12 @@
 import React from 'react'
-import { Box,HStack,VStack,Text,Image } from '@chakra-ui/react'
+import { Box,HStack,VStack,Text,Image,Divider } from '@chakra-ui/react'
 import { useColorModeValue } from '@chakra-ui/react';
 import Slider from './Slider';
-
+import Featuredbrands from './Homepagecomponents/Featuredbrands';
 import { Select } from '@chakra-ui/react';
+import FullBody from './Homepagecomponents/FullBody';
+
+
 
 function Medicines() {
 
@@ -38,7 +41,7 @@ function Medicines() {
 
         <Slider></Slider>
 
-        <Image boxShadow={'1px 1px 5px black'} borderRadius={'20px'} w={{ base : '48%' ,'633px':'33%', '865px' : '33%'}} src='https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/85bbe9a7-230b-4836-bff3-d5f451b426a7.png'></Image>
+        <Image _hover={{cursor : 'pointer'}} boxShadow={'1px 1px 5px black'} borderRadius={'20px'} w={{ base : '48%' ,'633px':'50%', '865px' : '33%'}} src='https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/85bbe9a7-230b-4836-bff3-d5f451b426a7.png'></Image>
 
      </HStack>
 
@@ -48,15 +51,33 @@ function Medicines() {
 
      </HStack>
 
-     
-        
-
-          
-    
     </Box>
 
+  {/* ------------BANNER--------------- */}
 
+    <Divider mt={5} ></Divider>
+
+    <VStack  p='5' >
+
+          <Box w = '95%' >
+ 
+          <Image _hover={{cursor : 'pointer'}} src = 'banner.webp'></Image>
+
+          </Box>
+
+    </VStack>
+
+
+    {/* -----------Featured Brands----------- */}
+
+             <Featuredbrands></Featuredbrands>
+
+    {/* ---------Full Body health Checkups---------- */}
               
+              <FullBody></FullBody>
+
+ 
+
     </>
   )
 }

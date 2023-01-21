@@ -2,7 +2,6 @@
 
 .mySwiper {
 
-    /* border: 2px solid green; */
 
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
     border-radius: 20px;
@@ -10,13 +9,15 @@
     width: 66%;
 
     z-index: -1;
+
 }
+
 
 @media only screen and (max-width : 865px) {
      
     .mySwiper{
 
-         width: 80%;
+         width: 95%;
 
          margin-bottom: 20px;
            

@@ -1,3 +1,4 @@
+import { blue } from "@mui/material/colors"
 
 const colorThemes = () => {
 
@@ -8,7 +9,7 @@ const colorThemes = () => {
 
                   brand : {
 
-                    primary : "blue.400",
+                    primary : blue[400],
 
                     secondary : "rgb(0, 255, 187)",
 
@@ -25,6 +26,9 @@ const colorThemes = () => {
     })
  
 }
+
+
+
 
 
 
