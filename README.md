@@ -1,6 +1,5 @@
 # hurried-desire-339
-Netlify :   https://lustrous-fox-1c72ee.netlify.app
-  
+It is an Medical Products website : built using React app
   
      
     
